@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mette Pahuus</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200&display=swap" rel="stylesheet"> 
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <div id="vue-app">
+        <v-app>
+            <v-main>
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="assets/logo.svg" alt=""></a>
+        </div>
+        <div id="menu">
+            <a href="produkter.html">Produkter</a>
+            <a href="priser.html">Priser</a>
+            <button><a target="_blank" href="https://mette-pahuus.planway.com">Bestil tid</a></button>
+        </div>
+        <div id="some">
+            <a target="_blank" href="https://www.facebook.com/mettepahuus.frisor/"><img src="assets/facebook.svg" alt=""></a>
+            <a target="_blank" href="https://www.instagram.com/mettepahuus.frisor/?hl=da"><img src="assets/insta_1.svg" alt=""></a>
+        </div>
+    </header>
+    <main>
+
+        <div id="caro">
+            <v-carousel cycle hide-delimiters>
+                <v-carousel-item
+                  v-for="(item,i) in items2"
+                  :key="i"
+                  :src="item.Img"
+                ></v-carousel-item>
+              </v-carousel>
+        </div>
+        <div id="text_box">
+            <div id="text_1">
+                <h1>
+                    Lernberger Stafsing
+                </h1>
+                <p>
+                    Alle produkter fra Lernberger Stafsing er unikke og produceret i Sverige fra firmaets egne opskrifter. Produkterne er derfor umulige at kopiere og fri fra skadelige kemikalier. Firmaet laver produkter fra hjertet, med viden og samvittighed med fokus om at gøre dig den smukkeste version af dig selv.
+                </br>
+                </br>
+                    Jeg forhandler alle Lernberger Stafsing hårprodukter.
+                </p> 
+                <div id="pics">
+                    <img src="assets/lern1.png" alt="Lernberger Stafsing, Produkter, Shampoo, Balsam, Conditioner, Hårkur, Voks, Til mænd, Hairmask">
+                    <img src="assets/lern2.png" alt="Lernberger Stafsing, Produkter, Logo, Model">
+                    <img src="assets/lern3.png" alt="Lernberger Stafsing, Produkter, Pharmacy, Scalp Serum, Shampoo, Hår Vitaminer, Hair Vitamines, Anti Dandruff, Skælshampoo">
+                </div>
+               
+            </div>
+            <div id="text_1">
+                <h1>
+                    Diva Stylingjern
+                </h1>
+                <p>
+                    Diva Professional Styling er et populært brand inden for innovative varmestylers, der følger tidens trends. Diva’s bredesortiment tæller alt lige fra glattejern og krøllejern til hårtørrere og varmecurlers.
+
+                </br>
+                </br>
+                “At Diva Pro styling we’ve passionate about creating innovative styling tools that allow professional stylists do what they do best, create.
+                Unleash your Creative Energy and create amazing, today.”
+                </p> 
+                <div id="pics">
+                    <img src="assets/diva1.jpg" alt="Diva Jern, Diva Stylingjern, Stylingjern, Glattejern, Fladjern, Krøllejern, Flat Iron">
+                    <img src="assets/diva2.jpg" alt="Diva Jern, Diva Stylingjern, Føntørre, Føn, Defuser, Diffuser">
+                    <img src="assets/diva3.jpg" alt="Diva Jern, Diva Stylingjern, Krøllejern, Curlingiron, Curling Wand">
+                </div>
+            </div>
+            <div id="text_1">
+                <h1>
+                    Revitalash
+                </h1>
+                <p>
+                    Revitalash Cosmetics er verdens førende kosmetikserie til vipper, bryn og hår, der bygger på lægevidenskabelige, patenterede og prisvindende formularer. Produkterne er designede til at fremme, genskabe og forskønne dine vigtigste skønhedstræk.
+
+
+                </br>
+                </br>
+                Alle produkter fra Revitalash kan købes hjem.
+                </p> 
+                <div id="pics">
+                    <img src="assets/revi1.jpg" alt="Revitalash, Øjenvippeserum, Vippe Serum, Serum, Vipper">
+                    <img src="assets/revi2.jpg" alt="Revitalash, Øjenbrynsserum, Bryn Serum, Serum, Øjenbryn">
+                    <img src="assets/revi3.png" alt="Revitalash, Brow Gel, Øjenbrynsgelé, Lash Wash, Vippe Rens, Bundle, Gaveæske">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="bestil">
+            <div id="bestil_tekst">
+                <h3>Bestil tid</h3>
+                <p>Du kan nemt og hurtigt bestille en tid online. 
+                Du skal bare følge linket herunder og derefter følge vejledningen på siden du bliver viderestillet til.</p>
+                <button><a target="_blank" href="https://mette-pahuus.planway.com">Bestil tid</a></button>
+            </div>
+        </div>
+        <div id="tider">
+            <div id="tider_tekst">
+                <h3>Telefontider</h3>
+                <div id="dage">
+                    <p>Mandag:</p>
+                    <p>Tirsdag:</p>
+                    <p>Onsdag:</p>
+                    <p>Torsdag:</p>
+                    <p>Fredag:</p>
+                    <p>Lørdag:</p>
+                    <p>Søndag:</p>
+                </div>
+                <div id="tidsp">
+                    <p>Lukket</p>
+                    <p>9:00 - 17:30</p>
+                    <p>9:00 - 17:30</p>
+                    <p>9:00 - 17:30</p>
+                    <p>9:00 - 17:30</p>
+                    <p>Efter aftale</p>
+                    <p>Lukket</p>
+                </div>
+            </div>
+        </div>
+        <div id="kontakt">
+            <div id="kontakt_tekst">
+                <h3>Kontakt</h3>
+                <div id="txt1">
+                    <p>Telefon:</p>
+                    <p>E-mail:</p>
+                    <p>Adresse:</p>
+                </div>
+                <div id="txt2">
+                    <p>+45 27 63 25 09</p>
+                    <p>Mettepahuus@live.dk</p>
+                    <p>Torvet 10, st</p>
+                    <p>6760 Ribe</p>
+                </div>
+                <div id="some2">
+                    <a target="_blank" href="https://www.facebook.com/mettepahuus.frisor/"><img src="assets/facebook.svg" alt=""></a>
+                    <a target="_blank" href="https://www.instagram.com/mettepahuus.frisor/?hl=da"><img src="assets/insta_1.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</v-main>
+</v-app>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

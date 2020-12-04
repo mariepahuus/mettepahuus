@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mette Pahuus</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200&display=swap" rel="stylesheet"> 
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <div id="vue-app">
+        <v-app>
+            <v-main>
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="assets/logo.svg" alt="Mette Pahuus Frisør"></a>
+        </div>
+        <div id="menu">
+            <a href="produkter.html">Produkter</a>
+            <a href="priser.html">Priser</a>
+            <button><a target="_blank" href="https://mette-pahuus.planway.com">Bestil tid</a></button>
+        </div>
+        <div id="some">
+            <a target="_blank" href="https://www.facebook.com/mettepahuus.frisor/"><img src="assets/facebook.svg" alt="Mette Pahuus Facebook"></a>
+            <a target="_blank" href="https://www.instagram.com/mettepahuus.frisor/?hl=da"><img src="assets/insta_1.svg" alt="Mette Pahuus Instagram"></a>
+        </div>
+    </header>
+    <main>
+        <div id="caro">
+            <v-carousel cycle hide-delimiters>
+                <v-carousel-item
+                  v-for="(item,i) in items1"
+                  :key="i"
+                  :src="item.Img"
+                ></v-carousel-item>
+              </v-carousel>
+        </div>
+        <div id="text_box">
+            <div id="text_2">
+                <h1>
+                    Klippebehandlinger
+                </h1>
+                <div id="behandling">
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Ny dameklip
+                            </h2> 
+                            <h3 id="desc">
+                                Anbefales hvis du ønsker en større forandring
+                                </br>
+                                Her er der ekstra tid til råd og vejledning af din frisure
+                            </h3> 
+                        </div>
+                        <div id="kr">
+                            <p>
+                                495 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Dameklip
+                            </h2> 
+                            <h3 id="desc">
+                                Anbefales hvis du ønsker samme klipning som sidst eller en mindre forandring
+                            </h3> 
+                        </div>
+                        <div id="kr">
+                            <p>
+                                435 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Herreklip
+                            </h2>   
+                        </div>
+                        <div id="kr">
+                            <p>
+                                335 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Skægklipning
+                            </h2> 
+                            <h3 id="desc">
+                                Ingen barbering
+                            </h3> 
+                        </div>
+                        <div id="kr">
+                            <p>
+                                155 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Ret af skægkanter
+                            </h2> 
+                            <h3 id="desc">
+                                Ret af kanterne på fuldskæg med kanttrimmer
+                            </h3> 
+                        </div>
+                        <div id="kr">
+                            <p>
+                                75 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Børneklip - fint hår
+                            </h2> 
+                            <h3 id="desc">
+                                Børn med meget lidt hår, der kun lige skal rettes til
+                                </br>
+                                Børneklip gælder til og med 12 år
+                            </h3> 
+                        </div>
+                        <div id="kr">
+                            <p>
+                                165 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Børneklip - normalt hår
+                            </h2> 
+                            <h3 id="desc">
+                                Børneklip gælder til og med 12 år
+                            </h3> 
+                        </div>
+                        <div id="kr">
+                            <p>
+                                225 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Børneklip - tykt hår
+                            </h2> 
+                            <h3 id="desc">
+                                Gælder ofte de ældre børn, der har hår tilsvarende voksne
+                                </br>
+                                Børneklip gælder til og med 12 år
+                            </h3> 
+                        </div>
+                        <div id="kr">
+                            <p>
+                                275 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Pandehår (børn)
+                            </h2> 
+                            <h3 id="desc">
+                                Børneklip gælder til og med 12 år
+                            </h3> 
+                        </div>
+                        <div id="kr">
+                            <p>
+                                60 kr
+                            </p>
+                        </div>
+                    </div>
+                
+                </div>
+                
+                 
+            </div>
+            <div id="text_3">
+                <h1>
+                    Farvebehandlinger
+                </h1>
+                <div id="behandling">
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Toning i forbindelse m. anden behandling - kort hår
+                            </h2> 
+                            <h3 id="desc">
+                                Hvis du ønsker at ændre refleksen til en køligere, varmere eller dybere tone
+                                </br>
+                                Laves kun på et i forvejen farvebehandlet hår
+                            </h3> 
+                        </div>
+                        <div id="kr">
+                            <p>
+                                150 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Toning i forbindelse m. anden behandling - mellem/langt hår
+                            </h2> 
+                            <h3 id="desc">
+                                Hvis du ønsker at ændre refleksen til en køligere, varmere eller dybere tone
+                                </br>
+                                Laves kun på et i forvejen farvebehandlet hår
+                                </br>
+                                Tillæg ved ekstra tykt eller langt hår
+                            </h3> 
+                        </div>
+                        <div id="kr">
+                            <p>
+                                200 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Bundfarve - kort hår 
+                            </h2>  
+                            <h3 id="desc">
+                                Max 3 cm udgroning
+                                </br>
+                                Inkl. vask og styling
+                            </h3>  
+                        </div>
+                        <div id="kr">
+                            <p>
+                                459 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Bundfarve - mellem/langt hår 
+                            </h2> 
+                            <h3 id="desc">
+                                Max 5 cm udgroning
+                                </br>
+                                Inkl. vask og styling
+                            </h3> 
+                        </div>
+                        <div id="kr">
+                            <p>
+                                489 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Reflekser i forbindelse med bundfarve
+                            </h2> 
+                        </div>
+                        <div id="kr">
+                            <p>
+                                239 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Helfarve - kort hår
+                            </h2> 
+                            <h3 id="desc">
+                                Inkl. vask og styling
+                            </h3> 
+                        </div>
+                        <div id="kr">
+                            <p>
+                                529 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Helfarve - page/mellemlangt hår
+                            </h2> 
+                            <h3 id="desc">
+                                Inkl. vask og styling
+                            </h3> 
+                        </div>
+                        <div id="kr">
+                            <p>
+                                599 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Helfarve - langt hår
+                            </h2> 
+                            <h3 id="desc">
+                                Inkl. vask og styling
+                            </h3> 
+                        </div>
+                        <div id="kr">
+                            <p>
+                                669 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Blegning af hele håret - kort hår
+                            </h2> 
+                            <h3 id="desc">
+                                Inkl. smartbond, toning, vask og styling
+                            </h3> 
+                        </div>
+                        <div id="kr">
+                            <p>
+                                659 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Blegning af hele håret - page/mellemlangt hår
+                            </h2> 
+                            <h3 id="desc">
+                                Inkl. smartbond/b3, toning, vask og styling
+                            </h3> 
+                        </div>
+                        <div id="kr">
+                            <p>
+                                769 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Blegning af hele håret - langt hår
+                            </h2> 
+                            <h3 id="desc">
+                                Inkl. smartbond, toning, vask og styling
+                                </br>
+                                Tillæg ved ekstra tykt eller langt hår
+                            </h3> 
+                        </div>
+                        <div id="kr">
+                            <p>
+                                899 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Hætte reflekser - kort hår
+                            </h2> 
+                            <h3 id="desc">
+                                Laves kun i kort hår
+                            </h3> 
+                        </div>
+                        <div id="kr">
+                            <p>
+                                559 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Reflekser - kort hår
+                            </h2> 
+                            <h3 id="desc">
+                                Inkl. vask og styling
+                                </br>
+                                Har du ingen reflekser i forvejen, kan der blive pålagt et gebyr for ekstra farve
+                            </h3> 
+                        </div>
+                        <div id="kr">
+                            <p>
+                                799 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Reflekser - page/mellemlangt hår
+                            </h2> 
+                            <h3 id="desc">
+                                Inkl. vask og styling
+                                </br>
+                                Har du ingen reflekser i forvejen, kan der blive pålagt et gebyr for ekstra farve
+                            </h3> 
+                        </div>
+                        <div id="kr">
+                            <p>
+                                929 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Reflekser - langt hår
+                            </h2> 
+                            <h3 id="desc">
+                                Inkl. vask og styling
+                                </br>
+                                Har du ingen reflekser i forvejen, kan der blive pålagt et gebyr for ekstra farve
+                            </h3> 
+                        </div>
+                        <div id="kr">
+                            <p>
+                                1.049 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Balayage - page/mellemlangt hår
+                            </h2> 
+                            <h3 id="desc">
+                                Inkl. smartbond, toning, vask og styling
+                            </h3> 
+                        </div>
+                        <div id="kr">
+                            <p>
+                                1.449 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Balayage - langt hår
+                            </h2> 
+                            <h3 id="desc">
+                                Inkl. smartbond, toning, vask og styling
+                                </br>
+                                Tillæg ved ekstra tykt eller langt hår
+                            </h3> 
+                        </div>
+                        <div id="kr">
+                            <p>
+                                1.649 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Balayage m. bundfarve - page/mellemlangt hår
+                            </h2> 
+                            <h3 id="desc">
+                                Inkl. smartbond, toning, vask og styling
+                            </h3> 
+                        </div>
+                        <div id="kr">
+                            <p>
+                                1.649 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Balayage m. bundfarve - langt hår
+                            </h2> 
+                            <h3 id="desc">
+                                Inkl. smartbond, toning, vask og styling
+                                </br>
+                                Tillæg ved ekstra tykt eller langt hår
+                            </h3> 
+                        </div>
+                        <div id="kr">
+                            <p>
+                                1.849 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Afrensning af farve
+                            </h2> 
+                        </div>
+                        <div id="kr">
+                            <p>
+                                700 kr
+                            </p>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+            <div id="text_3">
+                <h1>
+                    Andre behandlinger
+                </h1>
+                <div id="behandling">
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Ret af bryn m. voks/pincet
+                            </h2> 
+                           
+                        </div>
+                        <div id="kr">
+                            <p>
+                                75 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Farve af bryn
+                            </h2> 
+                            <h3 id="desc">
+                                Inkl. ret af bryn
+                            </h3> 
+                        </div>
+                        <div id="kr">
+                            <p>
+                                120 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Farve af vipper
+                            </h2>   
+                        </div>
+                        <div id="kr">
+                            <p>
+                                120 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Farve af bryn og vipper
+                            </h2> 
+                            <h3 id="desc">
+                                Inkl. ret af bryn
+                            </h3> 
+                        </div>
+                        <div id="kr">
+                            <p>
+                                240 kr
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cut1">
+                        <div id="be">
+                            <h2>
+                                Hårkur i forbindelse med anden behandling
+                            </h2> 
+                        
+                        </div>
+                        <div id="kr">
+                            <p>
+                                89 kr
+                            </p>
+                        </div>
+                    </div>
+                    
+                    </div>
+                
+                </div>
+                 
+                
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="bestil">
+            <div id="bestil_tekst">
+                <h3>Bestil tid</h3>
+                <p>Du kan nemt og hurtigt bestille en tid online. 
+                Du skal bare følge linket herunder og derefter følge vejledningen på siden du bliver viderestillet til.</p>
+                <button><a target="_blank" href="https://mette-pahuus.planway.com">Bestil tid</a></button>
+            </div>
+        </div>
+        <div id="tider">
+            <div id="tider_tekst">
+                <h3>Telefontider</h3>
+                <div id="dage">
+                    <p>Mandag:</p>
+                    <p>Tirsdag:</p>
+                    <p>Onsdag:</p>
+                    <p>Torsdag:</p>
+                    <p>Fredag:</p>
+                    <p>Lørdag:</p>
+                    <p>Søndag:</p>
+                </div>
+                <div id="tidsp">
+                    <p>Lukket</p>
+                    <p>9:00 - 17:30</p>
+                    <p>9:00 - 17:30</p>
+                    <p>9:00 - 17:30</p>
+                    <p>9:00 - 17:30</p>
+                    <p>Efter aftale</p>
+                    <p>Lukket</p>
+                </div>
+            </div>
+        </div>
+        <div id="kontakt">
+            <div id="kontakt_tekst">
+                <h3>Kontakt</h3>
+                <div id="txt1">
+                    <p>Telefon:</p>
+                    <p>E-mail:</p>
+                    <p>Adresse:</p>
+                </div>
+                <div id="txt2">
+                    <p>+45 27 63 25 09</p>
+                    <p>Mettepahuus@live.dk</p>
+                    <p>Torvet 10, st</p>
+                    <p>6760 Ribe</p>
+                </div>
+                <div id="some2">
+                    <a target="_blank" href="https://www.facebook.com/mettepahuus.frisor/"><img src="assets/facebook.svg" alt=""></a>
+                    <a target="_blank" href="https://www.instagram.com/mettepahuus.frisor/?hl=da"><img src="assets/insta_1.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</v-main>
+</v-app>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

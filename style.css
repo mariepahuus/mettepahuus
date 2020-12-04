@@ -1,0 +1,1667 @@
+/*
+Theme Name: mettepahuus
+Theme URI:
+Author: Maria Nisbeth, Tine Freudendahl, Marie Pahuus
+Author URI:
+Description: Html / CSS theme
+Text Domain: twentynineteen
+*/
+
+
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+#logo {
+    width: 30%;
+    height: 80px;
+    display: flex;
+    padding-left: 30px;
+}
+
+#logo img {
+    height: 75px;
+    margin: 5px 0 0 10px;
+}
+
+#menu {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.menu-header-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#menu ul li {
+    list-style-type: none;
+    width: 33%;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 35px;
+}
+
+#menu-item-297 {
+    background-color: #e8e8e8;
+}
+
+#menu button {
+    background-color: #e8e8e8 !important;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    width: 100px;
+    height: 35px;
+    border: none;
+}
+
+#menu button:hover {
+    background-color: #d3d3d3 !important;
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+    color: #181818 !important;
+    display:block!important;
+}
+
+#some {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+#some img {
+    height: 25px;
+    margin: 5px 18px 0 0;
+}
+
+#caro {
+    height: 500px;
+    width: 100%;
+}
+
+#text_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#text {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 75px 0;
+}
+
+#box_1 {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+/* #box_1 p {
+    display: flex;
+    align-items: center;
+}  */
+
+#box_2 {
+    width: 40%;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+#mette {
+    height: 450px;
+}
+
+#text h1, #text_1 h1, #text_2 h1, #text_3 h1 {
+    width: 100%;
+    border-bottom: 2px solid #181818;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+}
+
+#text h2, #text_1 h2 {
+    height: 55px;
+    margin-top: 15px;
+}
+
+#text_2 h2, #text_3 h2 {
+    height: 30px;
+}
+
+
+#text p {
+    line-height: 29px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+#text_1 p {
+    line-height: 29px;
+    margin: 30px 0;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#text_2 p, #text_3 p {
+    line-height: 29px;
+    margin: 40px 0;
+}
+
+
+#text_1 {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 60px 0 30px 0;
+}
+
+#text_2 {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 75px 0 20px 0;
+}
+
+#text_3 {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+
+#pics {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+#pics img {
+    height: 200px;
+}
+
+#behandling {
+    width: 100%;
+    padding: 30px 150px 0 150px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#behandling p {
+    font-weight: bold;
+}
+
+#behandling h2 {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#cut1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#be {
+    width: 80%
+}
+
+#kr {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#desc {
+    font-weight: lighter !important;
+    font-size: 14px;
+    margin-top: -7px;
+}
+
+
+#pris {
+    width: 25%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+#pris p, #behandling p {
+    margin: 0;
+}
+
+footer {
+    padding-bottom: 50px;
+    background-color: #e8e8e8;
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+
+#bestil, #tider, #kontakt {
+    width: 29%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+#bestil_tekst, #tider_tekst, #kontakt_tekst {
+    width: 60%;
+}
+
+#bestil_tekst button {
+    background-color: #d3d3d3 !important;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    width: 125px;
+    height: 30px;
+    border: none;
+    margin-top: 15px;
+}
+
+#bestil_tekst button:hover {
+    background-color: #b8b8b8 !important;
+    transition: 0.5s;
+}
+
+#tider_tekst, #kontakt_tekst {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tider_tekst h3, #kontakt_tekst h3 {
+    width: 100%;
+}
+
+#dage {
+    width: 40%;
+    height: 210px;
+}
+
+#dage p, #tidsp p, #kontakt p {
+    margin: 10px 0 0 0;
+}
+
+#bestil p {
+    line-height: 27px;
+    margin-top: 25px;
+}
+
+#tidsp {
+    width: 60%;
+    height: 210px;
+}
+
+#txt1 {
+    width: 40%;
+    height: 90px;
+}
+
+#txt1 p, #txt2 p {
+    margin-bottom: 3px;
+}
+
+#txt2 {
+    width: 60%;
+    height: 90px;
+}
+
+#some2 {
+    width: 100%;
+    display: flex;
+    
+    height: 110px;
+   align-items: flex-end;
+}
+
+#some2 img {
+    height: 25px;
+    margin: 5px 18px 0 0;
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    margin-bottom: 13px;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    
+
+}
+
+.video_view9_vid_wrapper {
+    height: 400px !important;
+    width: 70% !important;
+    margin: 0;
+}
+
+#video {
+    width: 80%;
+    margin-bottom: 125px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#video_1 {
+    width: 47%;
+}
+
+#video_1 h2 {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.page_item.page-item-12, .page_item.page-item-15, .page_item.page-item-44 {
+    display: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 450px) {
+    body {
+        margin: 0;
+    }
+    
+    header {
+        background-color: white;
+        height: 85px;
+        display: flex;
+        justify-content: center;
+        font-size: 19px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    #logo {
+        width: 20%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0px;
+    }
+    
+    #logo img {
+        height: 40px;
+        margin: 5px 0 0 10px;
+    }
+    
+    #menu {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    
+    #menu button {
+        background-color: #e8e8e8 !important;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        width: 85px;
+        height: 30px;
+        border: none;
+    }
+    
+    #menu button:hover {
+        background-color: #d3d3d3 !important;
+        transition: 0.5s;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #181818 !important;
+        font-size: 14px;
+    }
+    
+    #some {
+        width: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 0px;
+    }
+    
+    #some img {
+        display: none;
+        height: 20px;
+        margin: 5px 13px 0 0;
+    }
+    
+    #caro {
+        height: 150px;
+        width: 100%;
+    }
+    
+    #text_box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    #text {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 45px 0 15px 0;
+    }
+    
+    #box_1 {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    #box_1 p {
+        display: flex;
+        justify-content: flex-start !important;
+      
+    }
+    
+    #box_2 {
+        width: 100%;
+        display: flex;
+        margin-top: 30px;
+        justify-content: center;
+    }
+    
+    #mette {
+        height: 500px;
+        margin-bottom: 10px;
+    }
+    
+    #text h1, #text_2 h1, #text_3 h1 {
+        width: 100%;
+        border-bottom: 2px solid #181818;
+        height: 60px;
+        display: flex;
+        justify-content: center !important;
+        text-align: center;
+        font-size: 19px;
+    }
+
+   #text_1 h1 {
+        width: 100%;
+        border-bottom: 2px solid #181818;
+        height: 60px;
+        display: flex;
+        justify-content: center !important;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    #text h2, #text_1 h2 {
+        height: 70px;
+        margin-top: 20px;
+        font-size: 18px;
+        display: flex;
+        justify-content: center !important;
+        text-align: center;
+    }
+    
+    #text_2 h2, #text_3 h2 {
+        height: auto;
+        margin: 0;
+    }
+    
+    
+    #text p {
+        line-height: 29px;
+        margin: 0;
+    
+    }
+    
+    #text_1 p {
+        line-height: 29px;
+        margin: 20px 0;
+        text-align: center;
+    }
+    
+    #text_2 p, #text_3 p {
+        line-height: 29px;
+        margin: 40px 0;
+    }
+    
+    
+    #text_1 {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 45px 0 30px 0;
+    }
+    
+    #text_2 {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 75px 0 20px 0;
+    }
+    
+    #text_3 {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 40px 0;
+    }
+
+    
+    
+    #pics {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 10px 0;
+    }
+    
+    #pics img {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+        margin-top: 20px;
+    }
+    
+    #behandling {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+    #behandling p {
+        font-weight: bold;
+    }
+    
+    #behandling h2 {
+        font-weight: bold;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    #cut1 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    #be {
+        width: 80%
+    }
+    
+    #kr {
+        width: 20%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    #desc {
+        font-weight: lighter !important;
+        font-size: 14px;
+        margin-top: 0;
+    }
+    
+    
+    #pris {
+        width: 25%;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+    
+    #pris p, #behandling p {
+        margin: 0;
+    }
+    
+    footer {
+        padding-bottom: 20px;
+        background-color: #e8e8e8;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-left: 0px;
+    }
+    
+    #bestil, #tider {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+    }
+
+   #kontakt {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        padding-top: 0px;
+        margin-top: 40px;
+    }
+    
+    
+    #bestil_tekst, #tider_tekst, #kontakt_tekst {
+        width: 70%;
+    }
+    
+    #bestil_tekst button {
+        background-color: #d3d3d3 !important;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        width: 85px;
+        height: 30px;
+        border: none;
+        margin-top: 10px;
+    }
+    
+    #bestil_tekst button:hover {
+        background-color: #b8b8b8 !important;
+        transition: 0.5s;
+    }
+    
+    #tider_tekst, #kontakt_tekst {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #tider_tekst h3, #kontakt_tekst h3 {
+        width: 100%;
+    }
+    
+    #dage {
+        width: 40%;
+        height: 210px;
+    }
+    
+    #dage p, #tidsp p {
+        margin-bottom: 3px;
+    }
+    
+    #tidsp {
+        width: 60%;
+        height: 210px;
+    }
+    
+    #txt1 {
+        width: 40%;
+        height: 90px;
+    }
+    
+    #txt1 p, #txt2 p {
+        margin-bottom: 3px;
+    }
+    
+    #txt2 {
+        width: 60%;
+        height: 90px;
+    }
+    
+    #some2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 130px;
+        padding: 0 0 20px 0;
+    }
+    
+    #some2 img {
+        height: 40px;
+        margin: 0 30px ;
+    }
+    
+    h1 {
+        font-family: 'Work Sans', sans-serif;
+    }
+    
+    h2 {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 600;
+    }
+    
+    h3 {
+        font-size: 19px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: lighter;
+        margin-bottom: 13px;
+    }
+    
+    p {
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        
+    
+    }
+
+    .video_view9_vid_wrapper {
+        height: 400px !important;
+        width: 70% !important;
+        margin: 0;
+    }
+    
+    #video {
+        width: 90%;
+        margin-bottom: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    #video_1 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    #video_1 h2 {
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+        
+    }
+  }
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 900px) and (min-width: 451px) {
+    body {
+        margin: 0;
+    }
+    
+    header {
+        background-color: white;
+        height: 85px;
+        display: flex;
+        justify-content: center;
+        font-size: 19px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    #logo {
+        width: 20%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0px;
+    }
+    
+    #logo img {
+        height: 40px;
+        margin: 5px 0 0 10px;
+    }
+    
+    #menu {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    
+    #menu button {
+        background-color: #e8e8e8 !important;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        width: 85px;
+        height: 30px;
+        border: none;
+    }
+    
+    #menu button:hover {
+        background-color: #d3d3d3 !important;
+        transition: 0.5s;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #181818 !important;
+        font-size: 20px;
+    }
+    
+    #some {
+        width: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 0px;
+    }
+    
+    #some img {
+        display: none;
+        height: 20px;
+        margin: 5px 13px 0 0;
+    }
+    
+    #caro {
+        height: 320px;
+        width: 100%;
+    }
+    
+    #text_box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    #text {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 45px 0 30px 0;
+    }
+    
+    #box_1 {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    #box_1 p {
+        display: flex;
+        justify-content: flex-start !important;
+      
+    }
+    
+    #box_2 {
+        width: 100%;
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+    }
+    
+    #mette {
+        height: 500px;
+        margin-bottom: 10px;
+    }
+    
+    #text h1, #text_2 h1, #text_3 h1 {
+        width: 100%;
+        border-bottom: 2px solid #181818;
+        height: 60px;
+        display: flex;
+        justify-content: center !important;
+        text-align: center;
+        font-size: 25px;
+    }
+
+   #text_1 h1 {
+        width: 100%;
+        border-bottom: 2px solid #181818;
+        height: 60px;
+        display: flex;
+        justify-content: center !important;
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    #text h2, #text_1 h2 {
+        height: 50px;
+        margin-top: 10px;
+        font-size: 21px;
+        display: flex;
+        justify-content: center !important;
+        text-align: center;
+    }
+    
+    #text_2 h2, #text_3 h2 {
+        height: auto;
+        margin: 0;
+    }
+    
+    
+    #text p {
+        line-height: 33px;
+        margin: 0;
+    
+    }
+    
+    #text_1 p {
+        line-height: 29px;
+        margin: 20px 0;
+        text-align: center;
+    }
+    
+    #text_2 p, #text_3 p {
+        line-height: 29px;
+        margin: 40px 0;
+    }
+    
+    
+    #text_1 {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 35px 0 30px 0;
+    }
+    
+    #text_2 {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 35px 0 20px 0;
+    }
+    
+    #text_3 {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 30px 0 50px 0;
+    }
+
+    
+    
+    #pics {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 10px 0 40px 0;
+    }
+    
+    #pics img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+        margin-top: 40px;
+    }
+    
+    #behandling {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+    #behandling p {
+        font-weight: bold;
+        font-size: 19px;
+    }
+    
+    #behandling h2 {
+        font-weight: bold;
+        font-size: 17px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    #cut1 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    #be {
+        width: 80%
+    }
+    
+    #kr {
+        width: 20%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    #desc {
+        font-weight: lighter !important;
+        font-size: 16px;
+        margin-top: 0;
+    }
+    
+    
+    #pris {
+        width: 25%;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+    
+    #pris p, #behandling p {
+        margin: 0;
+    }
+    
+    footer {
+        padding-bottom: 20px;
+        background-color: #e8e8e8;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-left: 0px;
+    }
+    
+    #bestil, #tider {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+    }
+
+   #kontakt {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        padding-top: 0px;
+        margin-top: 60px;
+    }
+    
+    
+    #bestil_tekst, #tider_tekst, #kontakt_tekst {
+        width: 70%;
+    }
+    
+    #bestil_tekst button {
+        background-color: #d3d3d3 !important;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        width: 140px;
+        height: 35px;
+        border: none;
+        margin-top: 10px;
+    }
+    
+    #bestil_tekst button:hover {
+        background-color: #b8b8b8 !important;
+        transition: 0.5s;
+    }
+    
+    #tider_tekst, #kontakt_tekst {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #tider_tekst h3, #kontakt_tekst h3 {
+        width: 100%;
+    }
+    
+    #dage {
+        width: 40%;
+        height: 210px;
+    }
+    
+    #dage p, #tidsp p {
+        margin-bottom: 3px;
+    }
+    
+    #tidsp {
+        width: 60%;
+        height: 210px;
+    }
+    
+    #txt1 {
+        width: 40%;
+        height: 90px;
+    }
+    
+    #txt1 p, #txt2 p {
+        margin-bottom: 3px;
+    }
+    
+    #txt2 {
+        width: 60%;
+        height: 90px;
+    }
+    
+    #some2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 150px;
+        padding: 0 0 20px 0;
+    }
+    
+    #some2 img {
+        height: 50px;
+        margin: 0 30px ;
+    }
+    
+    h1 {
+        font-family: 'Work Sans', sans-serif;
+    }
+    
+    h2 {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 600;
+    }
+    
+    h3 {
+        font-size: 21px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: lighter;
+        margin-bottom: 13px;
+    }
+    
+    p {
+        font-size: 17px;
+        font-family: 'Open Sans', sans-serif;
+        
+    
+    }
+
+    .video_view9_vid_wrapper {
+        height: 400px !important;
+        width: 70% !important;
+        margin: 0;
+    }
+    
+    #video {
+        width: 90%;
+        margin-bottom: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    #video_1 {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    #video_1 h2 {
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+        
+    }
+  }
+
+
+
+
+@media only screen and (max-width: 1200px) and (min-width: 901px) {
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+#logo {
+    width: 20%;
+    height: 80px;
+    display: flex;
+    padding-left: 30px;
+}
+
+#logo img {
+    height: 75px;
+    margin: 5px 0 0 10px;
+}
+
+#menu {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.menu-header-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#menu-header {
+    padding: 0;
+}
+
+#menu ul li {
+    list-style-type: none;
+    width: 33%;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 35px;
+}
+
+#menu-item-297 {
+    background-color: #e8e8e8;
+}
+
+#menu button {
+    background-color: #e8e8e8 !important;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    width: 100px;
+    height: 35px;
+    border: none;
+}
+
+#menu button:hover {
+    background-color: #d3d3d3 !important;
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+    color: #181818 !important;
+    display:block!important;
+    font-size: 21px;
+}
+
+#some {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+#some img {
+    height: 35px;
+    margin: 5px 22px 0 0;
+}
+
+#caro {
+    height: 430px;
+    width: 100%;
+}
+
+#text_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#text {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+#mette2 {
+    margin-top: 30px;
+}
+
+#box_1 {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+/* #box_1 p {
+    display: flex;
+    align-items: center;
+}  */
+
+#box_2 {
+    width: 40%;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+#mette {
+    height: 450px;
+}
+
+#text h1, #text_1 h1, #text_2 h1, #text_3 h1 {
+    width: 100%;
+    border-bottom: 2px solid #181818;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+}
+
+#text h2, #text_1 h2 {
+    height: 55px;
+    margin-top: 15px;
+}
+
+#text_2 h2, #text_3 h2 {
+    height: 30px;
+}
+
+
+#text p {
+    line-height: 31px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+#text_1 p {
+    line-height: 29px;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#text_2 p, #text_3 p {
+    line-height: 29px;
+    margin: 40px 0;
+}
+
+
+#text_1 {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 0 20px 0;
+}
+
+#text_2 {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 0 20px 0;
+}
+
+#text_3 {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+
+#pics {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+#pics img {
+    height: 200px;
+}
+
+#behandling {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#behandling p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#behandling h2 {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#cut1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#be {
+    width: 80%
+}
+
+#kr {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#desc {
+    font-weight: lighter !important;
+    font-size: 17px;
+    margin-top: -7px;
+}
+
+
+#pris {
+    width: 25%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+#pris p, #behandling p {
+    margin: 0;
+}
+
+footer {
+    padding-bottom: 50px;
+    background-color: #e8e8e8;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+}
+
+
+#bestil, #tider, #kontakt {
+    width: 29%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+#bestil_tekst, #tider_tekst, #kontakt_tekst {
+    width: 75%;
+}
+
+#bestil_tekst button {
+    background-color: #d3d3d3 !important;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    width: 125px;
+    height: 30px;
+    border: none;
+    margin-top: 15px;
+}
+
+#bestil_tekst button:hover {
+    background-color: #b8b8b8 !important;
+    transition: 0.5s;
+}
+
+#tider_tekst, #kontakt_tekst {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tider_tekst h3, #kontakt_tekst h3 {
+    width: 100%;
+}
+
+#dage {
+    width: 40%;
+    height: 210px;
+}
+
+#dage p, #tidsp p, #kontakt p {
+    margin: 10px 0 0 0;
+}
+
+#bestil p {
+    line-height: 27px;
+    margin-top: 25px;
+}
+
+#tidsp {
+    width: 60%;
+    height: 210px;
+}
+
+#txt1 {
+    width: 40%;
+    height: 90px;
+}
+
+#txt1 p, #txt2 p {
+    margin-bottom: 3px;
+}
+
+#txt2 {
+    width: 60%;
+    height: 90px;
+}
+
+#some2 {
+    width: 100%;
+    display: flex;
+    
+    height: 110px;
+   align-items: flex-end;
+}
+
+#some2 img {
+    height: 35px;
+    margin: 5px 18px 0 0;
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 21px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    margin-bottom: 13px;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    
+
+}
+
+.video_view9_vid_wrapper {
+    height: 400px !important;
+    width: 70% !important;
+    margin: 0;
+}
+
+#video {
+    width: 90%;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#video_1 {
+    width: 48%;
+}
+
+#video_1 h2 {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+  }
+
